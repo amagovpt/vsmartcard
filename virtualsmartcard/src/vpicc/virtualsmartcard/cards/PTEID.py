@@ -116,7 +116,7 @@ class PTEIDOS_V2(PTEIDOS):
     def __init__(self, mf, sam, app_ids, ins2handler=None, maxle=MAX_SHORT_LE):
         PTEIDOS.__init__(self, mf, sam, ins2handler, maxle)
         self.app_ids = app_ids
-        self.atr = '\x3B\xFF\x96\x00\x00\x81\x31\xFE\x43\x80\x31\x80\x65\xB0\x85\x04\x01\x20\x12\x0F\xFF\x82\x90\x00\xD0'
+        self.atr = '\x3b\xff\x96\x00\x00\x81\x31\xfe\x43\x80\x31\x80\x65\xb0\x85\x05\x00\x11\x12\x0f\xff\x82\x90\x00\xe1'
 
     def handle_execute(self, c):
         def notImplemented(*argz, **args):
